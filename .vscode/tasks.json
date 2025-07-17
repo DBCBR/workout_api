@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run WorkoutAPI",
+			"type": "shell",
+			"command": "C:/Users/dbcbr/.pyenv/pyenv-win/versions/3.11.4/python.exe -m uvicorn workout_api.main:app --host 127.0.0.1 --port 8000 --reload",
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
